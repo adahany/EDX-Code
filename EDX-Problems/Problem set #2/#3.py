@@ -3,9 +3,6 @@ __author__ = 'thebackd00r'
 
 balance = 999999  #how much you borrow from bank
 annualInterestRate = 0.18    #how much interest in a year
-#monthlyPaymentRate = 0.04   #how much should be paid each mont minimum
-
-#month = 0    #number of months
 remain = float(balance)
 epsilon = 0.01
 montlyinterest = (annualInterestRate/12.0)

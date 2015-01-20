@@ -44,15 +44,12 @@ count = 0
 count1 = 0
 bob = ''
 for letter in s:
-    #print 'letter '+str(letter)
     if letter in list1:
         bob = bob+letter
         count += 1
         if letter =='o' and bob!='bo':
             bob = ''
             count = 0
-        #print count
-        #print bob
         if bob == 'bb':
             bob = letter
             count = 1

@@ -11,16 +11,12 @@ paid = 0.0
 while month < 12:
 
     month += 1
-    if month == 13:
-        None
-        #minimum = balance * montlyPaymentRate        #minimum montly payment
-        #remain = balance - minimum
-    else:
-        minimum = remain * monthlyPaymentRate
-        remain -= minimum
-        interest = (annualInterestRate/12.0) * remain
-        remain += interest
-        paid += minimum
+
+    minimum = remain * monthlyPaymentRate
+    remain -= minimum
+    interest = (annualInterestRate/12.0) * remain
+    remain += interest
+    paid += minimum
     print 'Month: %i ' %month
     print 'Minimum monthly payment: %.2f ' %round(minimum,2)
     print 'Remaining balance: %.2f ' %round(remain,2)

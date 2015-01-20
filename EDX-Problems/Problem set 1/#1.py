@@ -1,4 +1,4 @@
-__author__ = 'thebackd00r'
+
 
 def isVowel(s):
 

@@ -1,4 +1,4 @@
-__author__ = 'thebackd00r'
+
 
 
 balance = 4773  #how much you borrow from bank

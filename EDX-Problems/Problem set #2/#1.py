@@ -1,4 +1,4 @@
-__author__ = 'thebackd00r'
+
 
 balance = 4213  #how much you borrow from bank
 annualInterestRate = 0.2    #how much interest in a year
